@@ -1,0 +1,43 @@
+.border {
+	border: 2px solid #010101;
+}
+
+/* Despliega un contenedor en flex */
+.container{
+	display: flex;
+	height: 300px;
+	gap: 30px;
+}
+
+/* Indica el orden de un elemento */
+.order-1 {
+	order: 1;
+}
+.order-2 {
+	order: 2;
+}
+.order-3 {
+	order: 3;
+}
+
+/* Dirección del flex */
+.row {
+	flex-direction: row;
+}
+.row-reverse {
+	flex-direction: row-reverse;
+}
+.colum {
+	flex-direction: column;
+}
+.colum-reverse {
+	flex-direction: column-reverse;
+}
+
+/* Define que tan grande es un item */
+.flex-grow-1 {
+	flex-grow: 1;
+}
+.flex-grow-2 {
+	flex-grow: 2;
+}
